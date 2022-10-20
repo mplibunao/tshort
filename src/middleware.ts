@@ -26,7 +26,7 @@ export async function middleware(
 }
 
 export const config = {
-	matcher: ['/:slug'],
+	matcher: ['/:slug*'],
 }
 
 //import { NextFetchEvent, NextRequest, NextResponse } from 'next/server'
